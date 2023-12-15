@@ -1,19 +1,18 @@
-// App.js
 import React, { useState } from 'react';
 import Square from './Square';
 
 function App() {
-    const [square1Color, setSquare1Color] = useState('red');
-    const [square2Color, setSquare2Color] = useState('blue');
+    const [square1Color, setSquare1Color] = useState('red')
+    const [square2Color, setSquare2Color] = useState('blue')
 
     const handleSquare1Click = () => {
-        setSquare1Color((prevColor) => (prevColor === 'red' ? 'blue' : 'red'));
-        setSquare2Color((prevColor) => (prevColor === 'red' ? 'blue' : 'red'));
+        setSquare1Color((prevColor) => (prevColor === 'red' ? 'blue' : 'red'))
+        setSquare2Color((prevColor) => (prevColor === 'red' ? 'blue' : 'red'))
     };
 
     const handleSquare2Click = () => {
-        setSquare1Color((prevColor) => (prevColor === 'red' ? 'blue' : 'red'));
-        setSquare2Color((prevColor) => (prevColor === 'red' ? 'blue' : 'red'));
+        setSquare1Color((prevColor) => (prevColor === 'red' ? 'blue' : 'red'))
+        setSquare2Color((prevColor) => (prevColor === 'red' ? 'blue' : 'red'))
     };
 
     return (

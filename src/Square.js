@@ -1,10 +1,9 @@
-// Square.js
-import React from 'react';
+import React from 'react'
 
 function Square({ squareColor, setSquareColor }) {
     const changeColor = () => {
-        setSquareColor((prevColor) => (prevColor === 'red' ? 'blue' : 'red'));
-    };
+        setSquareColor((prevColor) => (prevColor === 'red' ? 'blue' : 'red'))
+    }
 
     return (
         <div
@@ -14,4 +13,4 @@ function Square({ squareColor, setSquareColor }) {
     );
 }
 
-export default Square;
+export default Square
